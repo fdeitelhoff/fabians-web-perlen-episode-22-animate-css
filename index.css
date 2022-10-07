@@ -1,0 +1,7 @@
+.animation-with-keyframe {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: bounce; /* Die direkte Referenz auf die Definition des @keyframe */
+  animation-duration: 2s; /* Die Dauer ist zwingend zu setzen */
+}
